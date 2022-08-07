@@ -2,5 +2,6 @@
 
 namespace Tokofetcher;
 
-require_once "config.php";
+require_once "loader.php";
 
+Front::init();
