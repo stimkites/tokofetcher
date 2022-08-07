@@ -38,7 +38,8 @@ const SOURCE = [
     'categories' => [
         'url' => 'https://gql.tokopedia.com/graphql/headerMainData',
         'query' => '[{"operationName":"headerMainData",
-          "query":"query headerMainData {\n  categoryAllListLite {\n    categories {\n      id\n      name\n      url\n      children {\n        id\n        name\n        url\n        children {\n          id\n          name\n          url\n        }\n      }\n    }\n  }\n}\n"
+            "query":"query headerMainData {\n  categoryAllListLite {\n    categories {\n      id\n      name\n      url\n      }\n  }\n}\n"     
         }]'
+        // complete children: "query":"query headerMainData {\n  categoryAllListLite {\n    categories {\n      id\n      name\n      url\n      children {\n        id\n        name\n        url\n        children {\n          id\n          name\n          url\n        }\n      }\n    }\n  }\n}\n"
     ]
 ];

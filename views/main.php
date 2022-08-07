@@ -8,7 +8,7 @@ namespace Tokofetcher;
 
 // We are responding as a test JSON here only
 
-header( "Content-Type: application/json" );
+header( "Content-Type: application/json; charset=utf-8" );
 
 $response = [
     'all_categories' => $categories,
